@@ -37,6 +37,4 @@ We've included an example image at `Call-1-Example.mp3`, but you can replace thi
 ## Repo structure
 Models used in the pipeline are contained in `models/`
 
-Other models that we tried during the proof of concept, but are no longer used, are in `unused_models/`
-
-We've included tests for the main models and the preprocessing steps in `tests/`. The `pipeline.py` script serves an integration test for the whole pipeline.
+I've included tests for the main models and the preprocessing steps in `testing/`. The `pipeline.py` script serves an integration test for the whole pipeline.
