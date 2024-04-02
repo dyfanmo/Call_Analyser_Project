@@ -1,4 +1,4 @@
-# call_analyser
+# Call Analyser Project
 
 ## Requirements
 Use an environment with Python 3.12, then
