@@ -18,8 +18,9 @@ def get_text_similarity(text1, text2):
 def disclaimer_verifier(speaker_segments_dict):
     similarity_scores = []
     for speaker, segments in speaker_segments_dict.items():
-        for i, segment in enumerate(segments):
-            if segment["start"] < max_start_time_seconds and i + 1 <= max_speaker_segments:
+        test_segments = segments[: (max_speaker_segments - 1)]
+        for segment in test_segments:
+            if segment["start"] < max_start_time_seconds:
                 similarity_scores.append(get_text_similarity(segment["text"], disclaimer_text))
 
     final_score = max(similarity_scores, default=0)
