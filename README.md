@@ -32,7 +32,7 @@ The `pipeline.py` script will convert a raw audio conversation into sentiment an
 
 `python pipeline.py --audio_path example.mp3 --num_speakers <int> --openai_key <YOUR API KEY> `
 
-We've included an example image at `Call-1-Example.mp3`, but you can replace this with any audio.
+I've included an example audio at `data`, but you can replace this with any audio.
 
 ## Repo structure
 Models used in the pipeline are contained in `models/`
