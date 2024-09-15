@@ -1,0 +1,15 @@
+numpy==1.26.4
+openai==1.16.0
+openai_whisper==20231117
+pyannote.audio==3.1.1
+pyannote.core==5.0.0
+pyannote.database==5.0.1
+pyannote.metrics==3.2.1
+pyannote.pipeline==3.0.1
+pydub==0.25.1
+scikit_learn==1.4.1.post1
+sentence_transformers==2.6.1
+torch==2.2.2
+transformers==4.39.1
+speechbrain==0.5.16
+pytest==8.1.1
